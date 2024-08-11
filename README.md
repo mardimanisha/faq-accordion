@@ -54,6 +54,7 @@ During this challenge, I focused on making the FAQ accordion both functional and
 - CSS Transitions: Implementing smooth transitions for the accordion opening and closing.
 - Responsive Design: Creating a responsive layout that adapts to both mobile and desktop screens using media queries.
 - JavaScript :
+
       1. Event Listeners:
         - DOMContentLoaded: Ensures that the script runs after the DOM is fully loaded.
         - click and keydown event listeners are used to toggle the accordion behavior.
