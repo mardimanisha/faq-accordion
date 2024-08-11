@@ -54,23 +54,21 @@ During this challenge, I focused on making the FAQ accordion both functional and
 - CSS Transitions: Implementing smooth transitions for the accordion opening and closing.
 - Responsive Design: Creating a responsive layout that adapts to both mobile and desktop screens using media queries.
 - JavaScript :
+      1. Event Listeners:
+        - DOMContentLoaded: Ensures that the script runs after the DOM is fully loaded.
+        - click and keydown event listeners are used to toggle the accordion behavior.
 
-Event Listeners:
-
-DOMContentLoaded: Ensures that the script runs after the DOM is fully loaded.
-click and keydown event listeners are used to toggle the accordion behavior.
-ARIA Attributes:
-
-aria-expanded: This attribute is used to indicate whether a section is expanded (true) or collapsed (false), improving accessibility for screen readers.
-Dynamic Styling:
-
-style.maxHeight: Controls the expansion and collapse of content sections by dynamically adjusting the maxHeight based on the content's scroll height.
-Keyboard Accessibility:
-
-keydown listener allows users to expand/collapse sections using the Enter or Space keys, ensuring the component is accessible via keyboard navigation.
-DOM Traversal:
-
-button.nextElementSibling: Efficiently selects the associated content section directly following the button, simplifying the code and improving performance.
+      2. ARIA Attributes:
+        - `aria-expanded`: This attribute is used to indicate whether a section is expanded (`true`) or collapsed (`false`), improving accessibility for screen readers.
+        
+      3. Dynamic Styling:
+          - `style.maxHeight`: Controls the expansion and collapse of content sections by dynamically adjusting the `maxHeight` based on the content's scroll height.
+          
+      4. Keyboard Accessibility:
+        - `keydown` listener allows users to expand/collapse sections using the Enter or Space keys, ensuring the component is accessible via keyboard navigation.
+        
+      5. DOM Traversal:
+        - `button.nextElementSibling`: Efficiently selects the associated content section directly following the button, simplifying the code and improving performance.
 
 ### Continued development
 
